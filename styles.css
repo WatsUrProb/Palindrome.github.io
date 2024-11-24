@@ -1,0 +1,213 @@
+:root {
+    --light-grey: #f5f6f7;
+    --dark-blue: #0a0a23;
+    --fcc-blue: #1b1b32;
+    --light-yellow: #fecc4c;
+    --dark-yellow: #feac32;
+    --light-pink: #ffadad;
+    --dark-red: #850000;
+    --light-green: #acd157;
+  }
+  
+  
+  body{
+  background-color:#ede8d0;
+  text-align: center;
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+    font-size: 25px;
+  }
+  
+  .intro{
+    background-color: #dbc37f;
+    padding: 10px;
+   margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    box-sizing:border-box;
+     border-radius: 55px;
+     border-style: double;
+    font-weight: bold;
+  }
+  
+  p{
+    font-size: 25px;
+    letter-spacing: -1.1px;
+    
+  }
+  
+  .a{
+  font-size: 23px;
+  margin-bottom: 10px;
+  }
+  
+  
+  .hide {
+    display: none;
+  }
+  .resultcorrect{
+  background-color: #04AA6D;
+    border: #acd157;
+    border-width: 5px 8px; 
+    border-radius: 15px;
+   border-right-style: solid;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 50px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .resultwrong{
+   background-color: red;
+    border: #c94452;
+    border-width: 5px 8px; 
+    border-radius: 15px;
+   border-right-style: solid;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 50px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  
+  .examples{
+    margin-top:10px;
+    margin-bottom:-90px;
+    padding: 15px;
+    background-color: #acd157;
+    border: #04AA6D;
+    border-width: 10px 8px; 
+    border-radius: 10px;
+   border-bottom-style: solid;
+   border-right-style: solid;
+  display: inline-block;
+    font-size: 20px;
+    text-align: left;
+    
+  }
+  
+  
+  button{
+    cursor: pointer;
+    text-decoration: none;
+    
+    }
+  
+    .user-input{
+  text-align: center;
+  margin-top: 50px;
+  height: 30px;
+   letter-spacing: -2px;
+   font-weight: bold;
+    }
+  
+    .button {
+    background-color: #f2c77c;
+    border: #faa005;
+    border-width: 5px 8px; 
+    border-radius: 15px;
+   border-right-style: solid;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 100px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+    
+    .text-input{
+      font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+  font-size: 20px;
+  box-sizing: border-box;
+  justify-content: center;
+    word-break: break-word;
+   padding: 10px 50px;
+   margin-left: auto;
+    margin-right: auto;
+    }
+    
+    ::placeholder {
+      color: black;
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    font-size: 20px;
+  text-align: justify;
+  box-sizing: border-box;
+   display: flex;
+    word-break: break-word;
+  }
+  
+  .red{
+    background-color:#c94452
+  }
+  
+  .green{
+     background-color:blue
+  }
+   .buttoncorrect{
+   
+   background-color: #04AA6D;
+    border: #acd157;
+    border-width: 5px 8px; 
+    border-radius: 15px;
+   border-right-style: solid;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 100px;
+    cursor: pointer;
+    font-weight: bold;
+  
+  }
+  
+   .buttonwrong{
+   
+   background-color: red;
+    border: #c94452;
+    border-width: 5px 8px; 
+    border-radius: 15px;
+   border-right-style: solid;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 100px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .retry {
+    background-color: #f2c77c;
+    border: #faa005;
+   margin-top: 15px;
+    border-radius: 15px;
+   border-style: solid;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 100px;
+    cursor: pointer;
+    font-weight: bold;
+  }
